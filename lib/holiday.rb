@@ -87,7 +87,7 @@ def all_supplies_in_holidays(holiday_hash)
   end
   
   holidays.each do |chek|
-    if chek.incude?("_")
+    if chek.include?("_")
     holidays[chek.index] = chek.split("_") 
     end
   end
