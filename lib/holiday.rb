@@ -100,7 +100,7 @@ def all_supplies_in_holidays(holiday_hash)
         end
         holidays2 << split_first.join(" ")
     else
-      holidays2 << cap
+      holidays2 << cap.capitalize
     end
   end
     
