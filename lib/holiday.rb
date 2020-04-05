@@ -89,9 +89,10 @@ def all_supplies_in_holidays(holiday_hash)
             end
             new_day = new_day.join(" ")
           else
+            new_day = new_day.capitalize
           end
         
-        puts "  "+day.to_s.capitalize+": "+items.join(", ")
+        puts "  "+new_day+": "+items.join(", ")
         
       end
     
