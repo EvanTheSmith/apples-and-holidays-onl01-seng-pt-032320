@@ -83,7 +83,7 @@ def all_supplies_in_holidays(holiday_hash)
         
         new_day = day.to_s.capitalize
           if new_day.split("").include?("_")
-            new_day = day.split("_")
+            new_day = day.to_s.split("_")
             new_day.each do |cap|
               cap.capitalize!
             end
