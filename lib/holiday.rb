@@ -86,14 +86,13 @@ def all_supplies_in_holidays(holiday_hash)
     end
   end
   
-  binding.pry
-  
   holidays.each do |chek|
-    chek.incude?("_") ? chek.split("_") : chek
-    
+    if chek.incude?("_")
+    holidays[chek.index] = chek.split("_") 
+    end
   end
     
-  end
+  binding.pry
 
 end
 
