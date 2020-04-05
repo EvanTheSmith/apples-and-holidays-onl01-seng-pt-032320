@@ -106,12 +106,11 @@ def all_supplies_in_holidays(holiday_hash)
   
   # Get the supplies
   the_supplies=[]
-  
- 
-  
   holiday_hash.each do |season, day|
-    
+     the_supplies << holiday_hash[season].values
   end
+  
+  binding.pry
 
 end
 
