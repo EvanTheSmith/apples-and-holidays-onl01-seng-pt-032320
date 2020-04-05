@@ -89,13 +89,13 @@ def all_supplies_in_holidays(holiday_hash)
   holidays2=[]
   holidays.each do |cap|
     if cap.split("").include?("_")
-      split_first = broke.join.split("_")
+      split_first = cap.split("_")
         split_first.each do |now_cap|
           now_cap.capitalize!
         end
         holidays2 << split_first.join(" ")
     else
-      holidays2 << broke.join
+      holidays2 << cap
     end
   end
     
