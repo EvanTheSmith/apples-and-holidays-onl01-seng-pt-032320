@@ -110,11 +110,12 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, day|
      the_supplies << holiday_hash[season].values
   end
-  the_supplies.flatten
+  
+  binding.pry
   
  
   
-  puts seasons[0]+": "+holidays2[0]+": "+the_supplies[0]
+
   
 
 end
