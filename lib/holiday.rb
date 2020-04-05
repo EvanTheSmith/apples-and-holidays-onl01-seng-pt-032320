@@ -116,10 +116,7 @@ def all_supplies_in_holidays(holiday_hash)
      the_supplies << holiday_hash[season].values
   end
   
-  winter_supplies = the_supplies[0]
-  4thjuly_supplies = the_supplies[1]
-  thanks_supplies = the_supplies[2]
-  memorial_supplies = the_supplies[3]
+
   
   
  
