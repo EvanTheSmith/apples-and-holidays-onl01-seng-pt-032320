@@ -107,10 +107,10 @@ def all_supplies_in_holidays(holiday_hash)
   # Get the supplies
   the_supplies=[]
   
-  holiday_hash[season].values
+ 
   
   holiday_hash.each do |season, day|
-
+    
   end
 
 end
