@@ -110,9 +110,10 @@ def all_supplies_in_holidays(holiday_hash)
      the_supplies << holiday_hash[season].values
   end
   
+  binding.pry
+  
   puts seasons[0]+": "+holidays2[0]+": "+the_supplies[0]
   
-  binding.pry
 
 end
 
