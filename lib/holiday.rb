@@ -73,10 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  
-  puts holiday_hash
-  
-  binding.pry
+
   
   # Get the seasons and capitalize
   
@@ -113,11 +110,11 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, day|
      the_supplies << holiday_hash[season].values
   end
-  the_supplies.flatten!
+  the_supplies.
   
-  binding.pry
+ 
   
-  puts seasons[0]+": "+holidays2[0]+": "+the_supplies[0]
+  puts seasons[0]+": "+holidays2[0]+": "+the_supplies[0].flatten
   
 
 end
