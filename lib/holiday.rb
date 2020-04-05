@@ -94,44 +94,6 @@ def all_supplies_in_holidays(holiday_hash)
         puts "  "+new_day+": "+items.join(", ")
       end
   end
-  
-  # Get the holidays
-  
-  holidays=[]
-  holiday_hash.each do |season, day|
-    day.each do |specific_day, item|
-    holidays << specific_day.to_s
-    end
-  end
-  
-  # Capitalize holiday names + convert "_" to " "
-  holidays2=[]
-  holidays.each do |cap|
-    if cap.split("").include?("_")
-      split_first = cap.split("_")
-        split_first.each do |now_cap|
-          now_cap.capitalize!
-        end
-        holidays2 << split_first.join(" ")
-    else
-      holidays2 << cap.capitalize
-    end
-  end
-  
-  # Get the supplies
-  the_supplies=[]
-  holiday_hash.each do |season, day|
-     the_supplies << holiday_hash[season].values
-  end
-  
-
-  
-  
- 
-  
-
-  
-
 end
 
 def all_holidays_with_bbq(holiday_hash)
