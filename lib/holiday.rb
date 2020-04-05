@@ -114,7 +114,7 @@ def all_supplies_in_holidays(holiday_hash)
   
  
   
-  puts seasons[0]+": "+holidays2[0]+": "+the_supplies[0].flatten
+  puts seasons[0]+": "+holidays2[0]+": "+the_supplies[0].to_s
   
 
 end
