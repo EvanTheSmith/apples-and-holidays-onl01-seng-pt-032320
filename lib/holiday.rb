@@ -89,7 +89,8 @@ def all_supplies_in_holidays(holiday_hash)
   binding.pry
   
   holidays.each do |chek|
-    chek.incude?
+    chek.incude?("_") ? chek.split("_") : chek
+    
   end
     
   end
