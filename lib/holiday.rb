@@ -113,6 +113,8 @@ def all_supplies_in_holidays(holiday_hash)
   puts seasons[0]
   puts holidays2[0..1]
   puts the_supples[0]
+  
+  binding.pry
 
 end
 
