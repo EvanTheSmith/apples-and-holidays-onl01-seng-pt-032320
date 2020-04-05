@@ -121,7 +121,6 @@ def all_supplies_in_holidays(holiday_hash)
   thanks_supplies = the_supplies[2]
   memorial_supplies = the_supplies[3]
   
-  binding.pry
   
  
   
