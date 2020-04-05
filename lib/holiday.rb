@@ -103,8 +103,14 @@ def all_supplies_in_holidays(holiday_hash)
       holidays2 << cap.capitalize
     end
   end
-    
-  binding.pry
+  
+  # Get the supplies
+  the_supplies=[]
+  holiday_hash.each do |season, day|
+    day.each do |specific_day, item|
+      binding.pry
+    end
+  end
 
 end
 
