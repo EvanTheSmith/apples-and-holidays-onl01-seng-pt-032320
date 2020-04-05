@@ -112,9 +112,9 @@ def all_supplies_in_holidays(holiday_hash)
   end
   
   winter_supplies = the_supplies[0]
-  summmer_supplies = the_supplies[1]
-  fall_supplies = the_supplies[2]
-  spring_supplies = the_supplies[3]
+  4thjuly_supplies = the_supplies[1]
+  thanks_supplies = the_supplies[2]
+  memorial_supplies = the_supplies[3]
   
   binding.pry
   
