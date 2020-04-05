@@ -94,8 +94,7 @@ def all_supplies_in_holidays(holiday_hash)
         split_first.each do |now_cap|
           now_cap.capitalize!
         end
-        split_first.join
-        holidays2 << split_first
+        holidays2 << split_first.join
     else
       holidays2 << broke.join
     end
