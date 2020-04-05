@@ -77,6 +77,11 @@ def all_supplies_in_holidays(holiday_hash)
   
   # Get the seasons and capitalize
   
+  holiday_hash.each do |one, two|
+    binding.pry
+  end
+  
+  
   seasons=[]
   holiday_hash.keys.each do |season|
   seasons << season.to_s.capitalize
