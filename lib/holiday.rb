@@ -80,6 +80,8 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, holiday|
     binding.pry
     puts one.to_s.capitalize+":"
+      holiday.each do |one, two|
+      end
     
   end
   
